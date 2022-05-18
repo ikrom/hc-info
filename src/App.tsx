@@ -1,6 +1,6 @@
 import type { Component } from "solid-js";
 import { createSignal } from "solid-js";
-import logo from "../public/raiders-horizontal.png";
+import logo from "/raiders-horizontal.png";
 
 const App: Component = () => {
   const [show, setShow] = createSignal(false);
